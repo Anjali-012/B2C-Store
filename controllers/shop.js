@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const stripe = require("stripe")(
-  "sk_test_51PH3l6SDkorxNwMy9bAYdJXv4x5P5ONHv2PqIXEQkxWhca5i2Y1nBg6DbNaK2RSsF9xQFgoCGMICJEDFEBOlKvdg00OBihdaAt"
+  "Your Stripe API Key"
 );
 
 const PDFDocument = require("pdfkit");
